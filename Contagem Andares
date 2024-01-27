@@ -1,0 +1,25 @@
+# Contagem dos andares, exceto o 13, com for
+i = 0
+for i in range(21):
+  i = i +1
+  if (i == 13):
+    continue
+  if (i == 21):
+    break
+  print(i)
+print ()
+print ()
+# Contagem dos andares, exceto o 13, com while
+while (i <= 20):
+  if (i == 13):
+    continue
+    print(i)
+    i = i + 1
+print ()
+# Contagem dos andares, exceto o 13, com for, em ordem decrescente
+for i in range(20, 0, -1):
+  if (i == 13):
+    continue
+  if (i == 21):
+    break
+  print(i)
