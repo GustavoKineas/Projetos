@@ -1,23 +1,16 @@
-def calculadora(numero1, numero2, operacao):
+def calculadora(numero1, numero2, operador):
 
-     if (operador == "+"):
-      resultado = numero1 + numero2
-      return resultado
-     elif (operador == "-"): 
-      resultado = numero1 - numero2
-      return resultado
-     elif (operador == "*"): 
-      resultado = numero1 * numero2
-      return resultado
-     elif (operador == "/"): 
-      resultado = numero1 / numero2
-      return resultado
+     if (operador == 1):
+      return numero1 + numero2
+     elif (operador == 2): 
+      return numero1 - numero2
+     elif (operador == 3): 
+      return numero1 * numero2
+     elif (operador == 4): 
+      return numero1 / numero2ltado
      else : 
-      resultado = "0"
-      return resultado
+      return 0
 
-numero1 = 2
-numero2 = 2
-operacao = "*"
+resultado = calculadora(5,3,3)
 
 print(resultado)
