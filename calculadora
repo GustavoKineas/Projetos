@@ -1,0 +1,23 @@
+def calculadora(numero1, numero2, operacao):
+
+     if (operador == "+"):
+      resultado = numero1 + numero2
+      return resultado
+     elif (operador == "-"): 
+      resultado = numero1 - numero2
+      return resultado
+     elif (operador == "*"): 
+      resultado = numero1 * numero2
+      return resultado
+     elif (operador == "/"): 
+      resultado = numero1 / numero2
+      return resultado
+     else : 
+      resultado = "0"
+      return resultado
+
+numero1 = 2
+numero2 = 2
+operacao = "*"
+
+print(resultado)
