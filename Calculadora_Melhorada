@@ -1,0 +1,28 @@
+#Entradas
+print("Qual operação deseja realizar?")
+print("1 = soma")
+print("2 = subtração")
+print("3 = multiplicação")
+print("4 = divisão")
+print("0 (zero) = sair")
+operador = int(input())
+print("Digite o primeiro número: ")
+numero1 = int(input())
+print("Digite o segundo número: ")
+numero2 = int(input())
+#função calculadora
+def calculadora(numero1, numero2, operador):
+  while (operador != 0):
+    if (operador == 1):
+      return numero1 + numero2
+    elif (operador == 2):
+      return numero1 - numero2
+    elif (operador == 3):
+     return numero1 * numero2
+    elif (operador == 4):
+        return numero1 / numero2
+    else:
+       return print("Opção errada!")
+resultado = calculadora(numero1, numero2, operador)
+print()
+print("O resultado da operação é 2" + str(resultado))
